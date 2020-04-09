@@ -1,5 +1,55 @@
-h1
-  color green
-  background-color: lightblue
-body
-  background-color: lightblue
+*
+  margin: 0;
+  padding: 0;
+a
+  text-decoration: none;
+
+.wrapper
+  max-width 1110px
+  margin 0 auto
+
+.header
+  background-image url(../img/header_bkg.jpg)
+  background-position center center
+  background-size cover
+  padding-top 34px
+  padding-bottom 74px
+  &__top
+    display flex
+    align-items center
+    justify-content space-between
+    margin-bottom 225px
+  .logo
+    width 134px
+    height 66px
+  &__link
+    margin-right 40px
+    font-family Raleway
+    font-style normal
+    font-weight normal
+    font-size 14px
+    letter-spacing 0.05em
+    color #FFFFFF
+  &__main
+    max-width 556px
+    margin 0 auto
+    text-align center
+  &__title
+    font-family Playfair Display
+    font-style normal
+    font-weight bold
+    font-size 48px
+    text-align center
+    color #D4C17F
+  &__contacts
+    display flex
+    margin 0 auto
+  &__info
+    font-family Raleway
+    font-style normal
+    font-weight normal
+    font-size 18px
+    text-align center
+    color #FFFFFF
+  &__info:first-child
+    margin-right 100px
