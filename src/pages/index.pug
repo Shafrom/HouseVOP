@@ -19,7 +19,14 @@ html(lang="en")
             a.header__link(href="") Контакты
         .header__main
           h1.header__title Жилой комплекс в историческом центре
+        .header__pic
+          img.mouse-pic(src="./img/mouse_pic.svg", alt="")
         .header__contacts
-          .header__info Наб. реки Фонтанки 10-15
-          .header__info 8 (812) 123-45-67
+          .contacts__flex
+            .contacts__flex-item
+              img.contacts-pic(src="./img/placeholder.svg", alt="")
+              .header__info Наб. реки Фонтанки 10-15
+            .contacts__flex-item
+              img.contacts-pic(src="./img/phone-call.svg", alt="")
+              .header__info 8 (812) 123-45-67
 
