@@ -5,7 +5,8 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title Document
     link(rel="stylesheet", href="css/style.css")
-    link(href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway&display=swap" rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway|Roboto&display=swap" rel="stylesheet")
+    link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-css-reset/dist/reset.min.css")
   body
     header.header
       .wrapper
@@ -29,4 +30,63 @@ html(lang="en")
             .contacts__flex-item
               img.contacts-pic(src="./img/phone-call.svg", alt="")
               .header__info 8 (812) 123-45-67
+    .testimonials
+      .wrapper
+        .testimonials__flex
+          .testimonials__item
+            img.testimonials__pic(src="./img/bench.svg", alt="")
+            .testimonials__text Рядом исторические
+            .testimonials__text парки и скверы
+          .testimonials__item
+            img.testimonials__pic(src="./img/building.svg", alt="")
+            .testimonials__text Полностью
+            .testimonials__text обустроенный
+          .testimonials__item
+            img.testimonials__pic(src="./img/fountain.svg", alt="")
+            .testimonials__text 10 фонтанов
+            .testimonials__text на территории
+          .testimonials__item
+            img.testimonials__pic(src="./img/bicycle.svg", alt="")
+            .testimonials__text 6 км
+            .testimonials__text велодорожек
+    .apartments
+      .wrapper
+        .apartments__title Наши квартиры
+        .apartments__flex
+          .apartments__item
+            img.apartments__pic(src="./img/apart1.jpg", alt="")
+            .apartments__picCaption Лофт — 3 этажа
+          .apartments__item
+            img.apartments__pic(src="./img/apart2.jpg", alt="")
+            .apartments__picCaption Лофт — 2 этажа
+          .apartments__item
+            img.apartments__pic(src="./img/apart3.jpg", alt="")
+            .apartments__picCaption Лофт — 3 этажа
+          .apartments__item
+            img.apartments__pic(src="./img/apart4.jpg", alt="")
+            .apartments__picCaption Лофт — 2 этажа
+    .lookAt
+      .wrapper
+        h1.lookAt__title Хотите посмотреть?
+        .lookAt__flex
+          .lookAt__item
+            .lookAt__text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+          .lookAt__item
+            form.lookAt__form(action="")
+              input.lookAt__input(type="text" placeholder="Ваше имя")
+              input.lookAt__input(type="text" placeholder="Ваш телефон")
+              .lookAt__attention *Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.
+              button.lookAt__button Посмотреть район
+    .videoBlock
+      .wrapper
+        .videoBlock__cont
+          img.videoBlock__pic(src="./img/video-bkg.jpg", alt="")
+          img.videoBlock__play(src="./img/play.svg", alt="")
+    .map
+      .wrapper
+        h1.map__title Район на карте
+        .map__cont
+
+
+
 
