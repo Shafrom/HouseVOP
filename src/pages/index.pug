@@ -3,7 +3,7 @@ html(lang="en")
   head
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    title Document
+    title HouseVOP
     link(rel="stylesheet", href="css/style.css")
     link(href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway|Roboto&display=swap" rel="stylesheet")
     link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-css-reset/dist/reset.min.css")
@@ -86,7 +86,41 @@ html(lang="en")
       .wrapper
         h1.map__title Район на карте
         .map__cont
-
+    .questions
+      .wrapper
+        h1.questions__title Есть вопросы?
+        form.questions__form(action="")
+          .questions__attention *Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.
+          input.questions__input(type="text" placeholder="Ваше имя")
+          input.questions__input(type="text" placeholder="Ваш телефон")
+          button.questions__button Посмотреть район
+    .footer
+      .wrapper
+        .footer__mainFlex
+          .footer__logoCont
+            img.footer__logo(src="./img/first-screen__logo.svg", alt="")
+          .footer__menu
+            a(href="").menu__item О комплексе
+            a(href="").menu__item Район
+            a(href="").menu__item Каталог квартир
+            a(href="").menu__item Ипотека
+            a(href="").menu__item Контакты
+          .footer__menu
+            a(href="").menu__item О комплексе
+            a(href="").menu__item Район
+            a(href="").menu__item Каталог квартир
+            a(href="").menu__item Ипотека
+            a(href="").menu__item Контакты
+          .footer__contacts
+            p3.contacts__item Адрес: Наб. реки Фонтанки 10-15
+            p3.contacts__item Телефон: 8 (812) 123-45-67
+            p3.contacts__item Отдел продаж: 10:00 - 20:00
+            p3.contacts__item E-mail: #[a(href="mailto:vip@housevip.ru") vip@housevip.ru]
+            .footer__social
+              a(href=""): img.footer__socialPic(src="./img/vk.svg", alt="")
+              a(href=""): img.footer__socialPic(src="./img/youtube.svg", alt="")
+              a(href=""): img.footer__socialPic(src="./img/facebook.svg", alt="")
+              a(href=""): img.footer__socialPic(src="./img/instagram.svg", alt="")
 
 
 
